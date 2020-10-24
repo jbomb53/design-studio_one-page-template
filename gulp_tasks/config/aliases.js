@@ -1,6 +1,6 @@
 // Include gulp
 var gulp = require('gulp'),
-    runSequence = require('run-sequence');
+    runSequence = require('gulp4-run-sequence');
 
 gulp.task('cleanup', function() {
   runSequence(

@@ -16,7 +16,7 @@ gulp.task('sync:helpers', function() {
   return gulp.src([
     paths.dev.helpers + '/**/',
     paths.dev.helpers + '/.htaccess'
-  ], {base: paths.dev.helpers})
+  ], {base: paths.dev.helpers, allowEmpty: true} )
     .pipe(plumber())
     .pipe(gulp.dest(paths.build.main));
 });

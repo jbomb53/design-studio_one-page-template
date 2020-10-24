@@ -7,7 +7,7 @@
     "autoprefixer": "^9.4.7",
     "browser-sync": "^2.17.0",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-changed": "^3.2.0",
     "gulp-data": "^1.2.1",
@@ -30,6 +30,7 @@
     "require-dir": "^1.2.0",
     "rollup": "^1.2.2",
     "rollup-plugin-babel": "^4.3.2",
+    "gulp4-run-sequence": "1.0.1",
     "run-sequence": "^2.2.1",
     "vinyl-paths": "^2.1.0"
   },

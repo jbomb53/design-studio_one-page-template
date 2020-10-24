@@ -1,7 +1,7 @@
 // File watcher that uses super-fast chokidar and emits vinyl objects
 var gulp = require('gulp'),
     paths = require('./config/paths'),
-    runSequence = require('run-sequence');
+    runSequence = require('gulp4-run-sequence');
 
 
 // Watch Files For Changes
